@@ -74,7 +74,7 @@ table, th, td{
 
 <?php
     // ชื่อ-สกุลตัวพิมพ์เล็ก
-    $fullname = "harry potter";
+    $fullname = "sitthisak phaisanphiphak";
 
     // แยกชื่อ–สกุล
     list($firstname, $lastname) = explode(" ", $fullname);
@@ -87,7 +87,7 @@ table, th, td{
     $nickname = $firstname;
 
     // ปีเกิด
-    $birthYear = 2005;
+    $birthYear = 2007;
 
     // คำนวณอายุ
     $currentYear = date("Y");

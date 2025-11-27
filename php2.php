@@ -29,7 +29,7 @@ a{
 </style>
 </head>
 
-<body background="./.....png">
+<body background="./35.PNG">
 
 <div class="row">
     <div class="column" align="right" style="padding-right: 20px;padding-top: 40px;">
@@ -47,25 +47,17 @@ a{
 <h2 align="center">ตัวอย่างการใช้คำสั่ง IF – ELSE</h2>
 
 <?php
-    $day = date("l");  // Monday, Tuesday, ...
-    $message = "";
+   $d = date("D");
 
-    if($day == "Monday"){
-        $message = "วันนี้วันจันทร์! เริ่มต้นสัปดาห์ใหม่ 💪";
-    }
-    elseif($day == "Friday"){
-        $message = "วันนี้วันศุกร์! อีกนิดก็วันหยุดแล้ว 😄";
-    }
-    elseif($day == "Sunday"){
-        $message = "วันอาทิตย์... พักผ่อนได้เต็มที่!";
-    }
-    else{
-        $message = "วันนี้เป็นวันปกติ 😄";
-    }
+   if($d == "Fri"){
+       $message = "Have a nice weekend!";
+   } else {
+       $message = "Have a nice day!";
+   }
 ?>
-
-<b>วันนี้คือ:</b> <?php echo $day; ?><br>
-<b>ข้อความ:</b> <?php echo $message; ?><br>
+<br />
+<b>วันนี้คือ:</b> <?php echo $d; ?><br>
+<b>ข้อความ:</b> <?php echo $message;?><br>
 
 </div>
 

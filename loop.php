@@ -28,7 +28,7 @@ a{
 </style>
 </head>
 
-<body background="./.....png">
+<body background="./12.PNG">
 
 <div class="row">
     <div class="column" align="right" style="padding-right: 20px;padding-top: 40px;">
@@ -49,7 +49,7 @@ a{
 
 <?php
 
-// ← เปลี่ยนตรงนี้เป็นจำนวนวันเดือนเกิดของคุณ เช่น 31
+// ← เปลี่ยนตรงนี้เป็นจำนวนวันเดือนเกิด 30/31 หรือ 28/29
 $birthMonthDays = 31;
 
 if($birthMonthDays == 30){
