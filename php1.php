@@ -29,7 +29,7 @@ a{
 </style>
 </head>
 
-<body background="./.....png">
+<body background="./24.PNG">
     
 <div class="row">
     <div class="column" align="right" style="padding-right: 20px;padding-top: 40px;">
@@ -49,21 +49,15 @@ a{
 <?php
     // ตัวแปร
     $name = "Sitthisak";
-    $num1 = 123;
-    $num2 = 77;
 
     // ฟังก์ชันบวกเลข
-    function add($a, $b){
-        return $a + $b;
-    }
-
-    // นับจำนวนตัวอักษรในชื่อ
-    $len = strlen($name);
+    echo strtoupper($name);
+    echo strtolower($name);
 ?>
 
 <b>ชื่อ:</b> <?php echo $name; ?><br>
-<b>จำนวนตัวอักษร:</b> <?php echo $len; ?><br>
-<b><?php echo "$num1 + $num2 ="; ?></b> <?php echo add($num1, $num2); ?><br>
+<b>อักษรตัวใหญ่:</b> <?php echo strtoupper($name); ?><br>
+<b>อักษรตัวเล็ก:</b> <?php echo strtolower($name); ?>
 
 </div>
 
