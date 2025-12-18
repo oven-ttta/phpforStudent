@@ -50,15 +50,29 @@ a{
     // ตัวแปร
     $name = "Sitthisak";
 
+<<<<<<< HEAD
     // ฟังก์ชันบวกเลข
     echo strtoupper($name);
     echo strtolower($name);
+=======
+     function add($a, $b){
+        return $a + $b;
+    }
+
+    $len = strlen($name);
+>>>>>>> aa142ddf4517a73ccb84318a12cecac7d7a8045f
 ?>
 
 <b>ชื่อ:</b> <?php echo $name; ?><br>
 <b>อักษรตัวใหญ่:</b> <?php echo strtoupper($name); ?><br>
+<<<<<<< HEAD
 <b>อักษรตัวเล็ก:</b> <?php echo strtolower($name); ?>
 
+=======
+<b>อักษรตัวเล็ก:</b> <?php echo strtolower($name); ?><br>
+<b>จำนวนตัวอักษรในชื่อ:</b> <?php echo $len; ?><br>
+<b>ผลบวกของตัวเลข <?php echo $num1; ?> + <?php echo $num2; ?> = </b> <?php echo add($num1, $num2); ?><br>
+>>>>>>> aa142ddf4517a73ccb84318a12cecac7d7a8045f
 </div>
 
 </body>

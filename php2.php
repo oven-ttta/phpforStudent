@@ -50,6 +50,7 @@ a{
    $d = date("D");
 
    if($d == "Fri"){
+<<<<<<< HEAD
        $day = "Have a nice weekend!";
    } else {
     echo"Have a nice day!";
@@ -57,6 +58,16 @@ a{
 ?>
 
 <b>วันนี้คือ:</b> <?php echo $d; ?><br>
+=======
+       $message = "Have a nice weekend!";
+   } else {
+       $message = "Have a nice day!";
+   }
+?>
+<br />
+<b>วันนี้คือ:</b> <?php echo $d; ?><br>
+<b>ข้อความ:</b> <?php echo $message;?><br>
+>>>>>>> aa142ddf4517a73ccb84318a12cecac7d7a8045f
 
 </div>
 
